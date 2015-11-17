@@ -7,7 +7,8 @@
     <meta name="description" content="El mejor comparador online de tu crédito automotriz" />
     <meta name="keywords" content="crédito automotriz, comparador crédito automotriz" />
 	<meta name="robots" content="index, nofollow" />
-	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
 	<title>Fotter Test - Teresa Raggi</title>
 
 <!-- Fuentes -->
@@ -27,59 +28,59 @@
 					<li>Cr&eacutedito Automotriz</li>
 				</ul>
 			</nav>
-			<section title="Formulario simulador de crédito automotriz" class="form-box">
+			<section title="Comparador crédito automotriz" class="form-box">
 				<div class="form-header">
 					<h1 class="titular-form">Simula tu Crédito Automotriz</h1>
+				</div>
 						
-				<form id="cotizaForm" name="Cotizador">
-
-					<div>
-						<div class="cajas-uno">
+				<form id="cotizaForm" name="Cotizador" class="Form">
+						<div class="colsForm">
 						<label>Valor del auto</label></br>
-						<input type="number" min="1" name="valor" placeholder="$" class="input-uno" required>
-						<a href="#" title="Ayuda"><img src="images/tooltip.png" alt"Ayuda"></a></br>
+						<input type="number" min="1" name="valor" placeholder="$" required>
+						<a href="#" title="Ayuda"><img src="images/tooltip.png" alt"Ayuda" class="tooltip"></a></br>
 						<h6>$10.000.000</h6>
 						<label>Marca del auto</label></br>
-						<select id="#" name="marca" class="input-dos">				      
+						<select id="#" name="marca">				      
 						      <option value="Opel">Opel</option>
 						      <option value="Ford">Ford</option>
 						      <option value="Fiat">Fiat</option>					      
 						</select>
 						</div>
 
-						<div class="cajas-dos"><label>Monto del pie</label></br>
-						<input type="number" min="1" placeholder="$" name="monto" class="input-uno"  required>
+						<div class="colsForm"><label>Monto del pie</label></br>
+						<input type="number" min="1" placeholder="$" name="monto" required>
 						<a href="#" title="Ayuda"><img src="images/tooltip.png" alt"Ayuda"></a></br>
 						<h6>$2.000.000</h6>
 						<label>Año auto</label></br>
-	
-
-						<input type="number" min="1970" max="2015" placeholder="Año" name="Anio" class="input-uno" required>
+						<input type="number" min="1970" max="2015" placeholder="Año" name="Anio" required>
 						</div>
 									
 
-						<div class="cajas-tres">
+						<div class="colsForm">
+						
 						<label>Plazo del cr&eacutedito</label></br>
-						<select id="#" name="plazo" class="input-dos">				      
+						<select id="#" name="plazo">				      
 						      <option value="6">6 meses</option>
 						      <option value="12">12 meses</option>
-						      <option value="36">36 meses</option>					      
+						      <option value="36">36 meses</option>
+
 						</select>
-						<a href="#" title="Ayuda"><img src="images/tooltip.png" alt"Ayuda"></a></br>
+						<a href="#" title="Ayuda"><img src="images/tooltip.png" alt"Ayuda" class="tooltip"></a>
+
+						</br>
 						<h6>&nbsp</h6>
 						<label>¿Cu&aacutendo planeas comprar el veh&iacuteculo?</label></br>
-						<select id="#" name="plazo" class="input-dos">				      
+						<select id="#" name="plazo">				      
 						      <option value="op1">Este Mes</option>
 						      <option value="op2">Dentro de tres meses</option>
-						      <option value="op3">Dentro de un año</option>						      
-						</select>
+						      <option value="op3">Dentro de un año</option>						     
+						</select>						
+						</div>					
 						
-						</div>
-						<p class="form-simular">
+						<div class="form-simular">
 								<img class="resultados" src="images/resultados.png" alt"Resultados instantaneos">					
 								<button id="submitForm" type="submit" name="Simular">Simular</button>
-						</p>
-					
+						</div>					
 				</form>
 
 			</section>
