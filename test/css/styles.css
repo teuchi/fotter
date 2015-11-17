@@ -1,0 +1,198 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.2em;
+	color: #666;
+}
+
+body {
+	background-color: #fff;
+	margin-top: 20px; 
+	width: 100%;
+}
+
+h6 {
+	font-size: 0.6em;
+	color: #999;
+	margin-bottom: 20px;
+}
+
+.main {
+	width: 73%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.nav-basica {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.nav-basica li {
+	display: inline;
+	font-size: 0.7em;
+}
+
+.nav-basica a {
+	font-size: 1em;
+	text-decoration: none;
+}
+
+.form-box {
+	border: 1px solid #ccc;
+	width: 630px;
+	height: 287px;
+	box-shadow: 3px 3px 3px #ccc;
+	display: inline-block;
+}
+
+
+.form-header {
+	width: 630px;
+	height: 46px;
+	background-image: url("../images/header_form.png");
+	background-repeat: no-repeat;
+
+}
+
+.titular-form {
+	font-size: 1.9em;
+	line-height: 1.4em;
+	color: #fff;
+	margin-left: 36px;
+	text-shadow: -1px 2px 1px #666; 
+}
+
+.fila-uno-form {
+	width: 630px;
+	height: 500px;
+}
+
+.cajas-uno {
+	margin-top: 36px;
+	vertical-align: text-top;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.cajas-dos {
+	margin-top: 36px;
+	vertical-align: text-top;
+	display: inline-block;
+	margin-left: 65px;
+	margin-right: 36px;
+
+}
+
+.cajas-tres {
+	margin-top: 36px;
+	vertical-align: text-top;
+	display: inline-block;
+
+}
+
+label {
+	font-size: 0.7em;
+}
+
+input {
+	font-size: 0.8em;
+}
+
+.input-uno {
+	width: 98px;
+	height: 24px;
+	margin-top: 5px;
+}
+
+.input-dos {
+	width: 130px;
+	height: 24px;
+	margin-top: 5px;
+}
+
+.fa-question-circle {
+	color: #FF9900;
+}
+
+.form-simular {
+	text-align: right;
+	margin-right: 35px;
+	margin-top: 16px;
+	font-size: 1em;
+}
+
+.resultados {
+	color: #00AADC;
+	vertical-align: middle;
+}
+
+.instantaneos {
+	color: #0DBE55;
+	vertical-align: middle;
+}
+
+.fa-angle-right {
+	font-size: 3em;
+	color: #999;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+button {
+  background: #C3F161;
+  background-image: -webkit-linear-gradient(top, #C3F161, #97CD1F);
+  background-image: -moz-linear-gradient(top, #C3F161, #97CD1F);
+  background-image: -ms-linear-gradient(top, #C3F161, #97CD1F);
+  background-image: -o-linear-gradient(top, #C3F161, #97CD1F);
+  background-image: linear-gradient(to bottom, #C3F161, #97CD1F);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  width: 108px;
+  height: 28px;
+  color: #576A2F;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+select {
+	font-size: 0.8em;
+}
+
+aside {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 36px;
+}
+
+.telefono {
+	vertical-align: middle;
+	float: left;
+}
+
+.horarios {
+	vertical-align: middle;
+	float: left;
+
+	border-left: 1px solid #666;
+}
+
+.celeste {
+	color: #00A8CE;
+}
+
+.ayuda {
+	vertical-align: middle;
+	float: left;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.hrs {
+	font-size: 0.7em;
+	margin-left: 10px;
+}
