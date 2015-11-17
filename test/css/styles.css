@@ -5,13 +5,15 @@
 	font-size: 16px;
 	line-height: 1.2em;
 	color: #666;
+	text-decoration: none;
 }
 
 body {
 	background-color: #fff;
-	margin-top: 20px; 
 	width: 100%;
 }
+
+
 
 h6 {
 	font-size: 0.6em;
@@ -20,14 +22,18 @@ h6 {
 }
 
 .main {
-	width: 73%;
+	max-width: 1050px;
 	margin: 0 auto;
 	position: relative;
+	box-shadow: 0px 3px 3px #ccc;
 }
 
 .nav-basica {
 	list-style: none;
-	margin-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 60px;
+
 }
 
 .nav-basica li {
@@ -46,6 +52,7 @@ h6 {
 	height: 287px;
 	box-shadow: 3px 3px 3px #ccc;
 	display: inline-block;
+	margin-left: 60px;
 }
 
 
@@ -59,7 +66,8 @@ h6 {
 
 .titular-form {
 	font-size: 1.9em;
-	line-height: 1.4em;
+	line-height: 1.5em;
+	vertical-align: middle;
 	color: #fff;
 	margin-left: 36px;
 	text-shadow: -1px 2px 1px #666; 
@@ -113,9 +121,6 @@ input {
 	margin-top: 5px;
 }
 
-.fa-question-circle {
-	color: #FF9900;
-}
 
 .form-simular {
 	text-align: right;
@@ -125,38 +130,27 @@ input {
 }
 
 .resultados {
-	color: #00AADC;
 	vertical-align: middle;
 }
 
-.instantaneos {
-	color: #0DBE55;
-	vertical-align: middle;
-}
-
-.fa-angle-right {
-	font-size: 3em;
-	color: #999;
-	vertical-align: middle;
-	padding-left: 10px;
-	padding-right: 20px;
-}
 
 button {
-  background: #C3F161;
-  background-image: -webkit-linear-gradient(top, #C3F161, #97CD1F);
-  background-image: -moz-linear-gradient(top, #C3F161, #97CD1F);
-  background-image: -ms-linear-gradient(top, #C3F161, #97CD1F);
-  background-image: -o-linear-gradient(top, #C3F161, #97CD1F);
-  background-image: linear-gradient(to bottom, #C3F161, #97CD1F);
-  -webkit-border-radius: 7;
-  -moz-border-radius: 7;
-  border-radius: 7px;
-  width: 108px;
-  height: 28px;
-  color: #576A2F;
-  font-size: 1em;
-  text-decoration: none;
+	  background: #C3F161;
+	  background-image: -webkit-linear-gradient(top, #C3F161, #97CD1F);
+	  background-image: -moz-linear-gradient(top, #C3F161, #97CD1F);
+	  background-image: -ms-linear-gradient(top, #C3F161, #97CD1F);
+	  background-image: -o-linear-gradient(top, #C3F161, #97CD1F);
+	  background-image: linear-gradient(to bottom, #C3F161, #97CD1F);
+	  -webkit-border-radius: 7;
+	  -moz-border-radius: 7;
+	  border-radius: 7px;
+	  width: 108px;
+	  height: 28px;
+	  color: #576A2F;
+	  font-size: 1em;
+	  text-decoration: none;
+	  font-weight: 600;
+	  margin-left: 16px;
 }
 
 select {
@@ -177,12 +171,13 @@ aside {
 .horarios {
 	vertical-align: middle;
 	float: left;
-
 	border-left: 1px solid #666;
 }
 
 .celeste {
 	color: #00A8CE;
+	text-decoration: none;
+	line-height: 1.5em;
 }
 
 .ayuda {
@@ -190,9 +185,11 @@ aside {
 	float: left;
 	margin-left: 10px;
 	margin-right: 20px;
+
 }
 
 .hrs {
 	font-size: 0.7em;
 	margin-left: 10px;
 }
+

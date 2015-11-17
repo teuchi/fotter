@@ -13,17 +13,14 @@
 <!-- Fuentes -->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-<!-- Iconos -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
 <!-- Estilos -->
+	<link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/styles.css"/>
 
 </head>
 
 <body>
 	<main class="main">
-
 			<nav>
 				<ul title="navegación básica" class="nav-basica">
 					<li><a href="#" title="Home">Home > </a></li>
@@ -32,77 +29,71 @@
 			</nav>
 			<section title="Formulario simulador de crédito automotriz" class="form-box">
 				<div class="form-header">
-					<p class="titular-form">Simula tu Crédito Automotriz</p>
+					<h1 class="titular-form">Simula tu Crédito Automotriz</h1>
 						
-				<form action="#" method="#" name="cotizador">
+				<form id="cotizaForm" name="Cotizador">
 
 					<div>
 						<div class="cajas-uno">
 						<label>Valor del auto</label></br>
-						<input type="number" min="1" name="valor" placeholder="$" class="input-uno">
-						<a href="#" title="Ayuda"><i class="fa fa-question-circle"></i></a></br>
+						<input type="number" min="1" name="valor" placeholder="$" class="input-uno" required>
+						<a href="#" title="Ayuda"><img src="images/tooltip.png" alt"Ayuda"></a></br>
 						<h6>$10.000.000</h6>
 						<label>Marca del auto</label></br>
 						<select id="#" name="marca" class="input-dos">				      
-						      <option value="op1">Opel</option>
-						      <option value="op2">Ford</option>
-						      <option value="op3">Fiat</option>						      
+						      <option value="Opel">Opel</option>
+						      <option value="Ford">Ford</option>
+						      <option value="Fiat">Fiat</option>					      
 						</select>
 						</div>
 
 						<div class="cajas-dos"><label>Monto del pie</label></br>
-						<input type="number" min="1" placeholder="$" name="monto" class="input-uno">
-						<a href="#" title="Ayuda"><i class="fa fa-question-circle"></i></a></br>
+						<input type="number" min="1" placeholder="$" name="monto" class="input-uno"  required>
+						<a href="#" title="Ayuda"><img src="images/tooltip.png" alt"Ayuda"></a></br>
 						<h6>$2.000.000</h6>
 						<label>Año auto</label></br>
 	
 
-						<input type="list" name="Anio" class="input-dos">
+						<input type="number" min="1970" max="2015" placeholder="Año" name="Anio" class="input-uno" required>
 						</div>
 									
 
 						<div class="cajas-tres">
 						<label>Plazo del cr&eacutedito</label></br>
-						<input type="option" class="input-uno">
-						<a href="#" title="Ayuda"><i class="fa fa-question-circle"></i></a></br>
+						<select id="#" name="plazo" class="input-dos">				      
+						      <option value="6">6 meses</option>
+						      <option value="12">12 meses</option>
+						      <option value="36">36 meses</option>					      
+						</select>
+						<a href="#" title="Ayuda"><img src="images/tooltip.png" alt"Ayuda"></a></br>
 						<h6>&nbsp</h6>
 						<label>¿Cu&aacutendo planeas comprar el veh&iacuteculo?</label></br>
 						<select id="#" name="plazo" class="input-dos">				      
-						      <option value="op1">Mañana</option>
+						      <option value="op1">Este Mes</option>
 						      <option value="op2">Dentro de tres meses</option>
 						      <option value="op3">Dentro de un año</option>						      
 						</select>
 						
 						</div>
 						<p class="form-simular">
-							<strong>
-								<span class="resultados"> ¡Resultados</span>
-								<span class="instantaneos">Instantáneos!</span>
-								</strong>
-								<i class="fa fa-angle-right"></i>						
-								<button type="submit" name="Simular">Simular</button>
+								<img class="resultados" src="images/resultados.png" alt"Resultados instantaneos">					
+								<button id="submitForm" type="submit" name="Simular">Simular</button>
 						</p>
 					
 				</form>
 
 			</section>
+
 			<aside title="Atención al cliente">
 				<div class="telefono"><img src="images/telefono.png" alt="Ayuda? 750 1414" class="telefono">
 				</div>
 				<div class="ayuda">
-				<h2>Ayuda? </br> <span class="celeste"> 750 1414</span></h2>
+				<h2>Ayuda? </br> <a href="tel:+54750 1414" class="celeste"> 750 1414</a></h2>
 				</div>
 				<div class="horarios"><p class="hrs">Lu. a vie. 09:00 a 21:00 hrs.<br>Sáb. 10:00 a 15:00 hrs.<p>
 				</div>
 				<div><img src="images/auto.png"></div>
 			</aside>
-			
-
-
-
-		
-
-
 
 
 	</main>
@@ -111,5 +102,8 @@
 
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.jsdelivr.net/jquery.validation/1.14.0/jquery.validate.min.js"></script>
+<script src="javascript/myjs.js"></script>
 </body>
 </html>
