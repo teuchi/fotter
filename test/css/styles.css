@@ -32,9 +32,8 @@ h6 {
 }
 
 .main {
-	max-width: 1050px;
+	width: 80%;
 	margin: 0 auto;
-	position: relative;
 	box-shadow: 0px 3px 3px #ccc;
 }
 
@@ -42,7 +41,7 @@ h6 {
 	list-style: none;
 	padding-top: 20px;
 	padding-bottom: 10px;
-	padding-left: 60px;
+	margin-left: 36px;
 
 }
 
@@ -59,11 +58,12 @@ h6 {
 .form-box {
 	border: 1px solid #ccc;
 	width: 60%;
+	max-width: 630px;
 	box-shadow: 3px 3px 3px #ccc;
 	display: inline-block;
-	margin-left: 60px;
+	margin-left: 36px;
+	margin-bottom: 36px;
 }
-
 
 .form-header {
 	max-width: 630px;
@@ -78,13 +78,14 @@ h6 {
 
 .Form {
 	position: relative;
+	padding: 10px;
 
 }
 
 .colsForm{
 	width: 32%;
 	padding-top: 36px;
-	padding-left: 1%;
+	padding-bottom: 16px;
 	float: left;
 }
 
@@ -95,10 +96,11 @@ label {
 select, input {
 	width: 70%;
 	font-size: 0.8em;
-	line-height: 1em;
-	color: #fff;
-	background: transparent;
 	padding: 5px 8px;
+	border: 1px solid #666;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
  }
 
  .tooltip {
@@ -107,10 +109,8 @@ select, input {
  }
 
 .form-simular {
-	text-align: right;
-	margin-right: 35px;
-	margin-top: 16px;
-	font-size: 1em;
+	float: right;
+	margin: 16px;
 }
 
 .resultados {
@@ -141,7 +141,9 @@ button {
 aside {
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 36px;
+	text-align: left;
+	padding: 10px;
+	margin: 0 auto;
 }
 
 .telefono {
@@ -174,4 +176,43 @@ aside {
 	margin-left: 10px;
 }
 
+@media screen and (max-width: 800px) {
+
+    .colsForm { 
+    margin: 0;
+    padding: 0;
+	width: 80%;
+	float: none;
+}
+
+select, input {
+	width: 70%;
+	font-size: 0.8em;
+	border: 1px solid #666;
+
+
+ }
+
+button {
+	margin-left: 10px;
+
+}
+
+.main {
+	width: 100%;
+}
+
+
+aside {
+	width: 95%;
+	margin-left: 10px;
+
+}
+
+.form-box {
+	width: 95%;
+	max-width: 630px;
+	margin-left: 10px;
+
+}
 
